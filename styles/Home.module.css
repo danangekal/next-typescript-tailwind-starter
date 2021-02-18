@@ -47,7 +47,7 @@
 }
 
 .title {
-  margin: 0;
+  margin-bottom: 0.75rem;
   line-height: 1.15;
   font-size: 4rem;
 }
@@ -60,6 +60,17 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.description a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.description a:hover,
+.description a:focus,
+.description a:active {
+  text-decoration: underline;
 }
 
 .code {
