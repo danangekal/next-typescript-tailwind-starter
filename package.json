@@ -1,15 +1,15 @@
 {
-  "name": "next-typescript-tailwind-stater",
+  "name": "next-typescript-tailwind-starter",
   "version": "0.1.0",
-  "description": "Unofficial Next.js + Typescript + Tailwind CSS stater with a latest package",
+  "description": "Unofficial Next.js + Typescript + Tailwind CSS starter with a latest package",
   "author": "Danang Eko Alfianto <github.com/danangekal>",
-  "homepage": "https://github.com/danangekal/next-typescript-tailwind-stater#readme",
+  "homepage": "https://github.com/danangekal/next-typescript-tailwind-starter#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danangekal/next-typescript-tailwind-stater.git"
+    "url": "git+https://github.com/danangekal/next-typescript-tailwind-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/danangekal/next-typescript-tailwind-stater/issues"
+    "url": "https://github.com/danangekal/next-typescript-tailwind-starter/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -18,7 +18,7 @@
     "prettier",
     "lint-staged",
     "nextjs",
-    "nextjs-stater",
+    "nextjs-starter",
     "nextjs-typescript",
     "tailwindcss",
     "tailwind-css",
