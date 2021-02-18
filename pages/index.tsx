@@ -19,9 +19,9 @@ export default function Home() {
         </p>
 
         <p className={styles.description}>
-          Go to tailwind page
+          Go to
           {' '}
-          <a href="/tailwind">example</a>
+          <a href="/tailwind">tailwind page</a>
         </p>
 
         <div className={styles.grid}>

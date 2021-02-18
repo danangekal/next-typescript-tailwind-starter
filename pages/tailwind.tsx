@@ -32,13 +32,13 @@ export default function Tailwind() {
         </p>
 
         <p className="text-xl text-center">
-          Go to default page
+          Go to
           {' '}
           <a
             href="/"
             className="text-blue-600 no-underline hover:underline focus:underline active:underline"
           >
-            example
+            default page
           </a>
         </p>
 
