@@ -14,7 +14,7 @@ export default function Tailwind() {
           >
             Next.js
           </a>
-          +
+          {' + '}
           <a
             href="https://tailwindcss.com/"
             className="text-blue-600 no-underline hover:underline focus:underline active:underline"
@@ -29,17 +29,6 @@ export default function Tailwind() {
           <code className="bg-gray-50 rounded-md p-3 text-base font-mono">
             pages/index.tsx
           </code>
-        </p>
-
-        <p className="text-xl text-center">
-          Go to
-          {' '}
-          <a
-            href="/"
-            className="text-blue-600 no-underline hover:underline focus:underline active:underline"
-          >
-            default page
-          </a>
         </p>
 
         <div className="flex flex-wrap justify-center items-center max-w-screen-md mt-12 sm:w-full">
