@@ -34,5 +34,4 @@ yarn-error.log*
 .vercel
 
 # package lock
-yarn.lock
 package-lock.json
