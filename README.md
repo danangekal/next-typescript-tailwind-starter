@@ -33,6 +33,28 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+#### Docker Build
+```bash
+docker build -t next-typescript-tailwind-starter .
+```
+
+#### Docker Run
+```bash
+docker run --rm -it -p 3000:3000 next-typescript-tailwind-starter
+```
+
+#### Docker Compose
+```bash
+docker-compose up
+```
+
+#### Docker Images
+You can use images available on docker hub [next-typescript-tailwind-starter](https://hub.docker.com/r/danangekal/next-typescript-tailwind-starter).
+
+```bash
+docker pull danangekal/next-typescript-tailwind-starter
+```
+
 ## Features
 
 - [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce React v17.0.
@@ -41,7 +63,9 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 - [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of Eslint.
 - [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of Prettier.
 - [Husky 5](https://typicode.github.io/husky/#/) - Documentation of Husky.
+- [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of Lint Staged.
 - [Tailwind CSS 2](https://tailwindcss.com/docs/) - Documentation of Tailwind CSS.
+- [Docker](https://docs.docker.com/) - Documentation of Docker.
 
 ## Learn More
 
