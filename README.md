@@ -3,26 +3,39 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Demo
 You can check [demo](https://next-typescript-tailwind-starter.vercel.app/)
 
+## Features
+
+- [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce react v17.0.
+- [Next.js 10](https://nextjs.org/blog/next-10) - Blog introduce next.js 10.
+- [Typescript 4](https://www.typescriptlang.org/) - Documentation of typescript.
+- [Tailwind CSS 2](https://tailwindcss.com/docs/) - Documentation of tailwind css.
+- [Docker](https://docs.docker.com/) - Documentation of Docker.
+- [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
+- [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of prettier.
+- [Husky 5](https://typicode.github.io/husky/#/) - Documentation of husky.
+- [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of lint staged.
+
 ## Usage
+This project using node >= 12.13.0 & yarn
 
 ### Installation
 
 ```bash
-git clone https://github.com/danangekal/next-typescript-starter.git
-npm install or yarn install
+git clone https://github.com/danangekal/next-typescript-tailwind-starter.git
+yarn install
 ```
 
 #### Development
 
 ```bash
-npm run dev or yarn dev
+yarn dev
 ```
 
 #### Production
 
 ```bash
 npm run build or yarn build
-npm start or yarn start
+yarn start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -54,18 +67,6 @@ You can use images available on docker hub [next-typescript-tailwind-starter](ht
 ```bash
 docker pull danangekal/next-typescript-tailwind-starter
 ```
-
-## Features
-
-- [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce React v17.0.
-- [Next.js 10](https://nextjs.org/blog/next-10) - Blog introduce Next.js 10.
-- [Typescript 4](https://www.typescriptlang.org/) - Documentation of Typescript.
-- [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of Eslint.
-- [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of Prettier.
-- [Husky 5](https://typicode.github.io/husky/#/) - Documentation of Husky.
-- [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of Lint Staged.
-- [Tailwind CSS 2](https://tailwindcss.com/docs/) - Documentation of Tailwind CSS.
-- [Docker](https://docs.docker.com/) - Documentation of Docker.
 
 ## Learn More
 
