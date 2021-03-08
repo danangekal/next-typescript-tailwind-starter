@@ -16,6 +16,13 @@ export default function Tailwind() {
           </a>
           {' + '}
           <a
+            href="https://www.typescriptlang.org/"
+            className="text-blue-600 no-underline hover:underline focus:underline active:underline"
+          >
+            Typescript
+          </a>
+          {' + '}
+          <a
             href="https://tailwindcss.com/"
             className="text-blue-600 no-underline hover:underline focus:underline active:underline"
           >
