@@ -9,6 +9,7 @@ You can check [demo](https://next-typescript-tailwind-starter.vercel.app/)
 - [Next.js 10](https://nextjs.org/blog/next-10) - Blog introduce next.js 10.
 - [Typescript 4](https://www.typescriptlang.org/) - Documentation of typescript.
 - [Tailwind CSS 2](https://tailwindcss.com/docs/) - Documentation of tailwind css.
+- [Next PWA 5](https://www.npmjs.com/package/next-pwa) - Documentation of next pwa.
 - [Docker](https://docs.docker.com/) - Documentation of Docker.
 - [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
 - [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of prettier.
