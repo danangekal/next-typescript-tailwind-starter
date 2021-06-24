@@ -1,13 +1,14 @@
+import Image from 'next/image';
+
 import Nav from '../components/nav';
 
-export default function Tailwind() {
+export default function Main() {
   return (
     <div className="min-h-screen px-2 py-0 flex flex-col justify-center items-center">
       <Nav />
       <main className="px-0 py-20 flex flex-1 flex-col justify-center items-center">
         <h1 className="text-4xl mb-3 text-center">
-          Welcome to
-          {' '}
+          Welcome to{' '}
           <a
             href="https://nextjs.org"
             className="text-blue-600 no-underline hover:underline focus:underline active:underline"
@@ -31,8 +32,7 @@ export default function Tailwind() {
         </h1>
 
         <p className="text-xl text-center">
-          Get started by editing
-          {' '}
+          Get started by editing{' '}
           <code className="bg-gray-50 rounded-md p-3 text-base font-mono">
             pages/index.tsx
           </code>
@@ -88,9 +88,14 @@ export default function Tailwind() {
           rel="noopener noreferrer"
           className="flex items-center justify-center"
         >
-          Powered by
-          {' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          Powered by{' '}
+          <Image
+            src="/vercel.svg"
+            alt="Vercel Logo"
+            className="h-4 ml-2"
+            width={70}
+            height={70}
+          />
         </a>
       </footer>
     </div>
