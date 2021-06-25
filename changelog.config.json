@@ -23,18 +23,7 @@
     "issues",
     "lerna"
   ],
-  "scopes": [
-    "init",
-    "runner",
-    "watcher",
-    "config",
-    "web-server",
-    "proxy",
-    "content",
-    "setup",
-    "etc",
-    ""
-  ],
+  "scopes": [],
   "types": {
     "chore": {
       "description": "Build process or auxiliary tool changes",
