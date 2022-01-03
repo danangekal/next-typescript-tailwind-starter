@@ -7,16 +7,16 @@ You can check [demo](https://next-typescript-tailwind-starter.vercel.app/)
 ## Features
 
 - [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce react v17.0.
-- [Next.js 11](https://nextjs.org/blog/next-11) - Blog introduce next.js 11.
+- [Next.js 12](https://nextjs.org/blog/next-12) - Blog introduce next.js 11.
 - [Typescript 4](https://www.typescriptlang.org/) - Documentation of typescript.
 - [Next PWA 5](https://www.npmjs.com/package/next-pwa) - Documentation of next pwa.
-- [Tailwind CSS 2](https://tailwindcss.com/docs/) - Documentation of tailwind css.
+- [Tailwind CSS 3](https://tailwindcss.com/docs/) - Documentation of tailwind css.
 - [Next PWA 5](https://www.npmjs.com/package/next-pwa) - Documentation of next pwa.
 - [Docker](https://docs.docker.com/) - Documentation of Docker.
 - [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
 - [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of prettier.
 - [Husky 7](https://typicode.github.io/husky/#/) - Documentation of husky.
-- [Lint Staged 11](https://github.com/okonet/lint-staged) - Documentation of lint staged.
+- [Lint Staged 12](https://github.com/okonet/lint-staged) - Documentation of lint staged.
 
 ## Usage
 
