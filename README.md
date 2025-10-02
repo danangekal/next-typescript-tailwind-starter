@@ -12,33 +12,32 @@ You can check [demo](https://next-typescript-tailwind-starter.vercel.app/)
 - [Tailwind CSS 3](https://tailwindcss.com/docs/) - Documentation of tailwind css.
 - [Next PWA 5](https://www.npmjs.com/package/next-pwa) - Documentation of next pwa.
 - [Docker](https://docs.docker.com/) - Documentation of Docker.
-- [Eslint 8](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
-- [Prettier 3](https://prettier.io/docs/en/index.html) - Documentation of prettier.
-- [Husky 8](https://typicode.github.io/husky/#/) - Documentation of husky.
-- [Lint Staged 14](https://github.com/okonet/lint-staged) - Documentation of lint staged.
+- [Biome](https://biomejs.dev/) - Fast formatter and linter for JavaScript, TypeScript, JSX, and JSON.
+- [Husky 9](https://typicode.github.io/husky/#/) - Documentation of husky.
+- [Lint Staged 16](https://github.com/okonet/lint-staged) - Documentation of lint staged.
 
 ## Usage
 
-This project using node >= 16.14 & yarn 1.22.19
+This project using Node.js >= 22.0.0 (LTS) & pnpm >= 9.0.0
 
 ### Installation
 
 ```bash
 git clone https://github.com/danangekal/next-typescript-tailwind-starter.git
-yarn install
+pnpm install
 ```
 
 #### Development
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 #### Production
 
 ```bash
-npm run build or yarn build
-yarn start
+pnpm build
+pnpm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
