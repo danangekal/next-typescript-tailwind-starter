@@ -19,8 +19,7 @@
     "tailwindcss",
     "pwa",
     "docker",
-    "eslint",
-    "prettier",
+    "biome",
     "husky",
     "lint-staged"
   ],

@@ -1,4 +1,4 @@
-name: CI to Docker Hub
+name: CI/CD Pipeline
 
 on:
   push:
@@ -8,31 +8,78 @@ on:
   workflow_dispatch:
 
 jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run Biome checks
+        run: pnpm lint
+
+      - name: Type check
+        run: pnpm type-check
+
+      - name: Run tests
+        run: pnpm test
+
   build:
     runs-on: ubuntu-latest
-
+    needs: lint-and-test
     steps:
-      - name: Check Out Repo
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build application
+        run: pnpm build
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - name: Docker Login
+      - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
-      - name: Build and push Docker images
+      - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
-          context: ./
+          context: .
           file: ./Dockerfile
           push: true
           tags: danangekal/next-typescript-tailwind-starter:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
-
-      - name: Image digest
-        run: echo ${{ steps.docker_build.outputs.digest }}

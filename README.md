@@ -6,11 +6,11 @@ You can check [demo](https://next-typescript-tailwind-starter.vercel.app/)
 
 ## Features
 
-- [React.js 18](https://reactjs.org/blog/2022/03/29/react-v18.html) - Blog introduce react v18.0.
-- [Next.js 13](https://nextjs.org/blog/next-13) - Blog introduce next.js 13.
+- [React.js 19](https://react.dev/blog/2024/12/05/react-19) - Blog introduce react v19.
+- [Next.js 15](https://nextjs.org/blog/next-15) - Blog introduce next.js 15.
 - [Typescript 5](https://www.typescriptlang.org/) - Documentation of typescript.
-- [Tailwind CSS 3](https://tailwindcss.com/docs/) - Documentation of tailwind css.
-- [Next PWA 5](https://www.npmjs.com/package/next-pwa) - Documentation of next pwa.
+- [Tailwind CSS 4](https://tailwindcss.com/docs/) - Documentation of tailwind css.
+- [Serwist 9](https://serwist.pages.dev/) - Documentation of serwist (PWA).
 - [Docker](https://docs.docker.com/) - Documentation of Docker.
 - [Biome](https://biomejs.dev/) - Fast formatter and linter for JavaScript, TypeScript, JSX, and JSON.
 - [Husky 9](https://typicode.github.io/husky/#/) - Documentation of husky.
